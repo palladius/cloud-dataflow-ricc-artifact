@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.google.cloud.dataflow.starter;
+package com.google.ricc;
 
 import com.google.cloud.dataflow.sdk.Pipeline;
 import com.google.cloud.dataflow.sdk.io.TextIO;
@@ -193,7 +193,7 @@ public class WordCount {
 
   }
 
-  /*
+  /**
    * Questo conta le linee
    */
   public static void main(String[] args) {
