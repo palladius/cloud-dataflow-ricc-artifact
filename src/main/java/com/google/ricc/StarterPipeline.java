@@ -68,7 +68,8 @@ public class StarterPipeline {
     Pipeline p = Pipeline.create(
         PipelineOptionsFactory.fromArgs(args).withValidation().create());
 
-    p.apply(Create.of("Hello", "World"))
+    
+    p.apply(Create.of("Hello", "Riccardo", "How are you?"))
     .apply(ParDo.of(new DoFn<String, String>() {
       @Override
       public void processElement(ProcessContext c) {
